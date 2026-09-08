@@ -1,5 +1,12 @@
 # python program to add two numbers
-number_1 = 15
-number_2 = 17
-Total = number_1 + number_2
-print("The sum of both numbers is:", Total)
+number1 = float(input("Enter your first number: "))
+number2 = float(input("Enter your second number: "))
+addition = number1 + number2
+subtraction = number1 - number2
+multiplication = number1 * number2
+division = number1 / number2
+print("Addition:", addition)
+print("Subtraction:", subtraction)
+print("Multiplication:", multiplication)
+print("Division:", division)
+print("Thank you for using Moti's Calculator")
